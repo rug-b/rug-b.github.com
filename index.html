@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>RubyUserGroup::Berlin</title>
-    <script src='http://www.google.com/jsapi' type='text/javascript'></script>
-    <script type='text/javascript'>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
       //<![CDATA[
         google.load("jquery", "1.4.2");
         google.load("feeds", "1");
@@ -13,22 +14,40 @@
     <link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <h1>RubyUserGroup::Berlin</h1>
-    <h2>::Meetings</h2>
-    <div class='feed' data-url='http://pipes.yahoo.com/pipes/pipe.run?_id=61a7767107cbe52ab16c89b473be98e1&amp;_render=rss' id='meetings-feed'></div>
-    <div id='info'>
-      <p><a href="http://groups.google.de/group/rug-b">Also see our Google Group</a></p>
-      <p>Mailing list, announcements and more.</p>
+    <header>
+      <img alt="RUG::B—Ruby User Group Berlin" src="images/rug-b-ruby-user-group-berlin.jpg"/>
+      <nav>
+        <a href="http://twitter.com/rug_b">Twitter</a>
+        <a href="http://groups.google.com/group/rug-b">Google Group</a>
+        <a href="http://www.xing.com/new/rug-b">Xing Group</a>
+        <a href="http://github.com/rug-b">Github</a>
+      </nav>
+    </header>
+    <div class="page">
+      <div class="column">
+        <section id="meetings-feed">
+          <div class="feed" data-url="http://pipes.yahoo.com/pipes/pipe.run?_id=61a7767107cbe52ab16c89b473be98e1&amp;_render=rss"></div>
+        </section>
+        <section id="links-feed">
+          <div class="feed" data-url="http://feeds.delicious.com/v2/rss/tag/rug-b?count=15"></div>
+        </section>
+      </div>
+      <div class="column">
+        <section id="global-feed">
+          <div class="feed" data-url="http://pipes.yahoo.com/pipes/pipe.run?_id=37b702d85b9c11ea144498931277bc9c&amp;_render=rss"></div>
+        </section>
+        <section id="twitter-feed">
+          <div class="feed" data-url="http://twitter.com/statuses/user_timeline/8936812.rss"></div>
+        </section>
+      </div>
+      <div class="column">
+        <section id="posts-feed">
+          <div class="feed" data-url="http://groups.google.de/group/rug-b/feed/rss_v2_0_msgs.xml"></div>
+        </section>
+        <section id="github-feed">
+          <div class="feed" data-url="http://github.com/rug-b.atom"></div>
+        </section>
+      </div>
     </div>
-    <h2>::Feed</h2>
-    <div class='feed' data-url='http://pipes.yahoo.com/pipes/pipe.run?_id=37b702d85b9c11ea144498931277bc9c&amp;_render=rss' id='global-feed'></div>
-    <h3>::Links</h3>
-    <div class='feed' data-url='http://feeds.delicious.com/v2/rss/tag/rug-b?count=15' id='links-feed'></div>
-    <h3>::Posts</h3>
-    <div class='feed' data-url='http://groups.google.de/group/rug-b/feed/rss_v2_0_msgs.xml' id='posts-feed'></div>
-    <h3>::Github</h3>
-    <div class='feed' data-url='http://github.com/rug-b.atom' id='github-feed'></div>
-    <h2>::Tweets</h2>
-    <div class='feed' data-url='http://twitter.com/statuses/user_timeline/8936812.rss' id='twitter-feed'></div>
   </body>
 </html>

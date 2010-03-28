@@ -1,3 +1,232 @@
-body {
-  font-family: Verdana;
-  font-size: 10pt; }
+a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, p, pre, span, th, td {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, em, th {
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+th {
+  font-style: normal;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.msie input, .msie textarea, .msie select {
+  font-size: 100%;
+}
+
+header, section, article, aside, footer, time {
+  display: block;
+}
+
+a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, p, pre, span, th, td {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, em, th {
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+th {
+  font-style: normal;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.msie input, .msie textarea, .msie select {
+  font-size: 100%;
+}
+
+header, section, article, aside, footer, time {
+  display: block;
+}
+
+nav,
+.gfc-result {
+  font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue','Swiss 721 Light','Helvetica','Arial','sans-serif';
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 20px;
+  position: relative;
+  bottom: 1px;
+}
+
+a {
+  color: inherit;
+}
+
+body,
+html {
+  background-color: #c42828;
+  background-image: url(../images/background-lines.png);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+header {
+  color: #450e0e;
+  float: left;
+  margin-right: 10px;
+  position: fixed;
+}
+header nav {
+  left: 0;
+  position: absolute;
+  text-align: right;
+  top: 540px;
+  width: 215px;
+}
+header nav a {
+  float: right;
+  clear: right;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  color: #450e0e;
+  margin-left: 270px;
+}
+.page a {
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 320px;
+}
+
+#meetings-feed {
+  background: url(../images/meetings-background.png) repeat-y;
+}
+#meetings-feed .feed {
+  background: url(../images/meetings.png) no-repeat;
+  color: #ea9b9b;
+  padding: 150px 20px 20px 42px;
+}
+
+#links-feed {
+  background: url(../images/links.png) no-repeat;
+  padding: 50px 20px 20px 84px;
+}
+
+#global-feed {
+  background: url(../images/feed-background.png) repeat-y;
+}
+#global-feed .feed {
+  background: url(../images/feed.png) no-repeat;
+  color: #ea9b9b;
+  padding: 110px 20px 20px 38px;
+}
+
+#twitter-feed {
+  background: url(../images/twitter.png) no-repeat;
+  padding: 50px 20px 20px 68px;
+}
+
+#posts-feed {
+  background: url(../images/posts-background.png) repeat-y;
+}
+#posts-feed .feed {
+  background: url(../images/posts.png) no-repeat 0 -20px;
+  padding: 190px 20px 20px 70px;
+}
+
+#github-feed {
+  background: url(../images/github.png) no-repeat;
+  padding: 50px 20px 20px 61px;
+}
+
+.gfc-resultsHeader {
+  display: none;
+}
+
+.gf-result {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.gf-result {
+  display: block;
+}
+.gf-result .gf-author,
+.gf-result .gf-spacer,
+.gf-result .gf-relativePublishedDate {
+  color: #841b1b;
+  float: left;
+  height: 20px;
+  margin-right: 5px;
+  overflow: hidden;
+}
+#meetings-feed .gf-result .gf-author,
+#global-feed .gf-result .gf-author,
+#meetings-feed .gf-result .gf-spacer,
+#global-feed .gf-result .gf-spacer,
+#meetings-feed .gf-result .gf-relativePublishedDate,
+#global-feed .gf-result .gf-relativePublishedDate {
+  color: #d76161;
+}
+.gf-result .gf-title {
+  height: 20px;
+}
+
+a {
+  color: #641414;
+}
+#meetings-feed a,
+#global-feed a {
+  color: #e68f8f;
+}
