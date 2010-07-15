@@ -1,97 +1,118 @@
+/* line 1, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, p, pre, span, th, td {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
 
+/* line 6, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 10, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 fieldset, img {
   border: 0;
 }
 
+/* line 13, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 address, em, th {
   font-style: normal;
   font-weight: normal;
 }
 
+/* line 17, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 li {
   list-style: none;
 }
 
+/* line 20, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 th {
   font-style: normal;
   text-align: left;
 }
 
+/* line 24, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 h1, h2, h3, h4, h5, h6, small {
   font-size: 100%;
 }
 
+/* line 27, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 input, textarea, select {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
 }
 
+/* line 33, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 .msie input, .msie textarea, .msie select {
   font-size: 100%;
 }
 
+/* line 36, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 header, section, article, aside, footer, time {
   display: block;
 }
 
+/* line 1, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, p, pre, span, th, td {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
 
+/* line 6, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 10, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 fieldset, img {
   border: 0;
 }
 
+/* line 13, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 address, em, th {
   font-style: normal;
   font-weight: normal;
 }
 
+/* line 17, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 li {
   list-style: none;
 }
 
+/* line 20, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 th {
   font-style: normal;
   text-align: left;
 }
 
+/* line 24, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 h1, h2, h3, h4, h5, h6, small {
   font-size: 100%;
 }
 
+/* line 27, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 input, textarea, select {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
 }
 
+/* line 33, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 .msie input, .msie textarea, .msie select {
   font-size: 100%;
 }
 
+/* line 36, /Library/Ruby/Gems/1.8/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 header, section, article, aside, footer, time {
   display: block;
 }
 
+/* line 3, ././src/stylesheets/basics/_typography.sass */
 nav,
 .gfc-result {
   font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue','Swiss 721 Light','Helvetica','Arial','sans-serif';
@@ -102,10 +123,12 @@ nav,
   bottom: 1px;
 }
 
+/* line 1, ././src/stylesheets/basics/_links.sass */
 a {
   color: inherit;
 }
 
+/* line 1, ././src/stylesheets/basics/_background.sass */
 body,
 html {
   background-color: #c42828;
@@ -114,12 +137,14 @@ html {
   background-attachment: fixed;
 }
 
+/* line 1, ././src/stylesheets/partials/_header.sass */
 header {
-  color: #450e0e;
+  color: black;
   float: left;
   margin-right: 10px;
   position: fixed;
 }
+/* line 7, ././src/stylesheets/partials/_header.sass */
 header nav {
   left: 0;
   position: absolute;
@@ -127,104 +152,126 @@ header nav {
   top: 540px;
   width: 215px;
 }
+/* line 14, ././src/stylesheets/partials/_header.sass */
 header nav a {
   float: right;
   clear: right;
   text-decoration: none;
 }
+/* line 4, /Library/Ruby/Gems/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/./compass/utilities/links/_hover-link.scss */
 header nav a:hover {
   text-decoration: underline;
 }
 
+/* line 1, ././src/stylesheets/partials/_page.sass */
 .page {
-  color: #450e0e;
+  color: black;
   margin-left: 270px;
 }
+/* line 5, ././src/stylesheets/partials/_page.sass */
 .page a {
   font-weight: bold;
 }
 
+/* line 1, ././src/stylesheets/partials/_columns.sass */
 .column {
   float: left;
   width: 320px;
 }
 
+/* line 1, ././src/stylesheets/partials/_sections.sass */
 #meetings-feed {
   background: url(../images/meetings-background.png) repeat-y;
 }
+/* line 4, ././src/stylesheets/partials/_sections.sass */
 #meetings-feed .feed {
   background: url(../images/meetings.png) no-repeat;
-  color: #ea9b9b;
+  color: #fcefef;
   padding: 150px 20px 20px 42px;
 }
 
+/* line 9, ././src/stylesheets/partials/_sections.sass */
 #links-feed {
   background: url(../images/links.png) no-repeat;
   padding: 50px 20px 20px 84px;
 }
 
+/* line 13, ././src/stylesheets/partials/_sections.sass */
 #global-feed {
   background: url(../images/feed-background.png) repeat-y;
 }
+/* line 16, ././src/stylesheets/partials/_sections.sass */
 #global-feed .feed {
   background: url(../images/feed.png) no-repeat;
-  color: #ea9b9b;
+  color: #fcefef;
   padding: 110px 20px 20px 38px;
 }
 
+/* line 21, ././src/stylesheets/partials/_sections.sass */
 #twitter-feed {
   background: url(../images/twitter.png) no-repeat;
   padding: 50px 20px 20px 68px;
 }
 
+/* line 25, ././src/stylesheets/partials/_sections.sass */
 #posts-feed {
   background: url(../images/posts-background.png) repeat-y;
 }
+/* line 28, ././src/stylesheets/partials/_sections.sass */
 #posts-feed .feed {
   background: url(../images/posts.png) no-repeat 0 -20px;
   padding: 190px 20px 20px 70px;
 }
 
+/* line 32, ././src/stylesheets/partials/_sections.sass */
 #github-feed {
   background: url(../images/github.png) no-repeat;
   padding: 50px 20px 20px 61px;
 }
 
+/* line 39, ././src/stylesheets/partials/_sections.sass */
 .gfc-resultsHeader {
   display: none;
 }
 
+/* line 42, ././src/stylesheets/partials/_sections.sass */
 .gf-result {
   overflow: hidden;
   display: inline-block;
   margin-bottom: 10px;
 }
+/* line 8, /Library/Ruby/Gems/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/./compass/utilities/general/./_hacks.scss */
 .gf-result {
   display: block;
 }
+/* line 46, ././src/stylesheets/partials/_sections.sass */
 .gf-result .gf-author,
 .gf-result .gf-spacer,
 .gf-result .gf-relativePublishedDate {
-  color: #841b1b;
+  color: #621414;
   float: left;
   height: 20px;
   margin-right: 5px;
   overflow: hidden;
 }
+/* line 55, ././src/stylesheets/partials/_sections.sass */
 #meetings-feed .gf-result .gf-author, #global-feed .gf-result .gf-author, #meetings-feed
 .gf-result .gf-spacer, #global-feed
 .gf-result .gf-spacer, #meetings-feed
 .gf-result .gf-relativePublishedDate, #global-feed
 .gf-result .gf-relativePublishedDate {
-  color: #d76161;
+  color: #e08b8b;
 }
+/* line 59, ././src/stylesheets/partials/_sections.sass */
 .gf-result .gf-title {
   height: 20px;
 }
 
+/* line 62, ././src/stylesheets/partials/_sections.sass */
 a {
-  color: #641414;
+  color: #310a0a;
 }
+/* line 65, ././src/stylesheets/partials/_sections.sass */
 #meetings-feed a, #global-feed a {
-  color: #e68f8f;
+  color: #f6dbdb;
 }
