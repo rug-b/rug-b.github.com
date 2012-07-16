@@ -1,113 +1,113 @@
-/* line 1, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 1, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, p, pre, span, th, td {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
 
-/* line 6, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 6, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 10, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 10, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 fieldset, img {
   border: 0;
 }
 
-/* line 13, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 13, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 address, em, th {
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 17, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 17, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 li {
   list-style: none;
 }
 
-/* line 20, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 20, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 th {
   font-style: normal;
   text-align: left;
 }
 
-/* line 24, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 24, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 h1, h2, h3, h4, h5, h6, small {
   font-size: 100%;
 }
 
-/* line 27, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 27, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 input, textarea, select {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
 }
 
-/* line 33, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 33, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 .msie input, .msie textarea, .msie select {
   font-size: 100%;
 }
 
-/* line 36, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 36, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 header, section, article, aside, footer, time {
   display: block;
 }
 
-/* line 1, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 1, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, p, pre, span, th, td {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
 
-/* line 6, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 6, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 10, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 10, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 fieldset, img {
   border: 0;
 }
 
-/* line 13, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 13, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 address, em, th {
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 17, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 17, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 li {
   list-style: none;
 }
 
-/* line 20, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 20, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 th {
   font-style: normal;
   text-align: left;
 }
 
-/* line 24, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 24, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 h1, h2, h3, h4, h5, h6, small {
   font-size: 100%;
 }
 
-/* line 27, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 27, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 input, textarea, select {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
 }
 
-/* line 33, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 33, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 .msie input, .msie textarea, .msie select {
   font-size: 100%;
 }
 
-/* line 36, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
+/* line 36, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/redgreengrid-0.3.2/sass/redgreengrid/_reset.sass */
 header, section, article, aside, footer, time {
   display: block;
 }
@@ -170,7 +170,7 @@ header nav a {
   clear: right;
   text-decoration: none;
 }
-/* line 4, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/compass-0.10.2/frameworks/compass/stylesheets/./compass/utilities/links/_hover-link.scss */
+/* line 4, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.10.2/frameworks/compass/stylesheets/./compass/utilities/links/_hover-link.scss */
 header nav a:hover {
   text-decoration: underline;
 }
@@ -252,7 +252,7 @@ header nav a:hover {
   display: inline-block;
   margin-bottom: 10px;
 }
-/* line 8, /Users/nh/.rvm/gems/ruby-1.9.2-p318@middleman/gems/compass-0.10.2/frameworks/compass/stylesheets/./compass/utilities/general/./_hacks.scss */
+/* line 8, /Users/thilo/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.10.2/frameworks/compass/stylesheets/./compass/utilities/general/./_hacks.scss */
 .gf-result {
   display: block;
 }
@@ -276,7 +276,7 @@ header nav a:hover {
 }
 /* line 59, ./config/../src/stylesheets/partials/_sections.sass */
 .gf-result .gf-title {
-  height: 20px;
+  height: auto;
 }
 
 /* line 62, ./config/../src/stylesheets/partials/_sections.sass */
